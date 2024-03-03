@@ -1,0 +1,119 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.coupon_code{
+  padding:1rem;
+  width: 45rem;
+  margin-bottom: 2.618em;
+  background-color:#EA1B25;
+  border-radius: 15px;
+  color: #fff;
+  clear: both;
+  transform: translateX(9rem);
+  border-left: 0.618em solid rgba(0,0,0,.15);
+  margin-top: 20px;
+}
+.emt{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0.75em;
+  margin-top: 1em;
+}
+.bill{
+  position: relative;
+  padding-bottom: 0.6em;
+}
+.bill:after{
+  content: ' ';
+  width: 10.56em;
+  border-bottom: 2px solid transparent;
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  border-color: #ea1b25;
+}
+.lbl{
+   display: inline-block;
+   font-size: 1em;
+   line-height: 1.286em;
+   font-weight: 700;
+   margin-bottom: 0.857em;
+}
+.uslg{
+  display: block;
+  width: 40rem;
+  padding: 0.594rem 1rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.714;
+  color: #333e48;
+  border-color: black!important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  border-radius: 1.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+.uslg_name{
+  display: block;
+  width: 18rem;
+  padding: 0.594rem 1rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.714;
+  color: #333e48;
+  border-color: black!important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  border-radius: 1.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+.uslg_country{
+  display: block;
+  width: 18rem;
+  transform: translateX(200px);
+  padding: 0.594rem 1rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.714;
+  color: #333e48;
+  border-color: black!important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  border-radius: 1.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+.odr{
+  padding: 10px;
+  background:#f5f5f5;
+  border-radius: 10px;
+}
+.po{
+  background: red;
+  color: white;
+  width: 15rem;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 27px;
+  transform: translate(70px,10px);
+}
+.po:hover{
+  background: black;
+  color: whitesmoke;
+}
+
+
+
+
+
